@@ -9,6 +9,7 @@ import { Champion1 } from './champion/entities/champion1.entity';
 
 @Module({
   imports: [
+    ConfigModule.forRoot({ isGlobal: true }),
     ChampionModule,
     TypeOrmModule.forRoot({
       type: 'sqlite',
