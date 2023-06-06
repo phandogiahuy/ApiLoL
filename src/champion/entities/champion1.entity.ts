@@ -31,16 +31,4 @@ export class Champion1 {
   item_11: string;
   @Column()
   item_12: string;
-  @Column()
-  item_13: string;
-  @Column()
-  item_14: string;
-  @Column()
-  item_15: string;
-  @Column()
-  item_16: string;
-  @Column()
-  item_17: string;
-  @Column()
-  item_18: string;
 }

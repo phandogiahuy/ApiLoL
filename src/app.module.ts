@@ -6,6 +6,7 @@ import { ChampionModule } from './champion/champion.module';
 import { ConfigModule } from '@nestjs/config';
 import { Champion2 } from './champion/entities/champion2.entity';
 import { Champion1 } from './champion/entities/champion1.entity';
+// import { WebsocketGateway } from './websocket/websocket.gateway';
 
 @Module({
   imports: [

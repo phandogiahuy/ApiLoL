@@ -11,7 +11,7 @@ import { ChampionService } from './champion.service';
 import { CreateChampionDto } from './dto/create-champion.dto';
 @Controller('champion')
 export class ChampionController {
-  constructor(private readonly championService: ChampionService) {}
+  constructor(private readonly championService: ChampionService ) {}
 
   @Post('/1')
   async create1(@Body() createChampionDto: CreateChampionDto) {
